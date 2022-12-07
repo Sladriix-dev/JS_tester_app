@@ -1,6 +1,7 @@
 /**
 * @function Pagination.getNumberOfPages
 */
+
 import Pagination from "."
 
 describe("Pagination Unit Test Suites", () => {
