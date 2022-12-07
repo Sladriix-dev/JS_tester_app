@@ -5,4 +5,12 @@ describe('SayHello Unit Test Suites', () => {
         expect(sayHello()).toBe("Hello, World")
     })
 
+    it ('should be "Hello, Thomas"', () => {
+        expect(sayHello("Thomas")).toBe("Hello, Thomas")
+    })
+
+    it ('should return "Bonjour Alexandra', () => {
+        expect(sayHello("Alexandra")).toBe("Bonjour Alexandra")
+    })
+
 })
